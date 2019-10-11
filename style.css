@@ -1,0 +1,42 @@
+div {
+    border: 1px solid red;
+}
+img {
+    border: 1px solid blue;
+    margin-top: 5px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vw 0 0 0;
+}
+
+.image {
+    width: 200px;
+}
+
+.image1 {
+    width: 200px;
+    height: 100px;
+}
+
+.banner {
+    margin-top: 5px; 
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: 100px;
+}
+.image2{
+     width: 50%;
+     margin: 0;
+} 
+
+.banner_bottom {
+    background-image: url('./76270.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
